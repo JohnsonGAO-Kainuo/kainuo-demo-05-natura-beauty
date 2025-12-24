@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Montserrat } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import CartDrawer from "@/components/CartDrawer";
+import Footer from "@/components/Footer";
+import SocialWidget from "@/components/SocialWidget";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({ 
@@ -30,10 +32,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${montserrat.variable} ${cormorant.variable} font-sans bg-[#F9F7F2] text-[#2C3333] antialiased`}>
+      <body className={`${montserrat.variable} ${cormorant.variable} font-sans bg-[#F9F7F2] text-[#2C3333] antialiased flex flex-col min-h-screen`}>
         <Navbar />
-        {children}
-        <CartDrawer />
+        <main className="flex-grow">
+          {children}
+        </main>
+        <Footer />
+        <SocialWidget />
       </body>
     </html>
   );
