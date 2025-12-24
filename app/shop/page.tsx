@@ -60,8 +60,8 @@ const products = [
     name: "Balancing Toner", 
     price: 42, 
     category: "Toner", 
-    image: "https://images.unsplash.com/photo-1629198727546-f06b437e6a2b?q=80&w=2080&auto=format&fit=crop",
-    hoverImage: "https://images.unsplash.com/photo-1620916296391-39a75a729e93?q=80&w=1974&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=1974&auto=format&fit=crop",
+    hoverImage: "https://images.unsplash.com/photo-1608248597279-f99d160bfbc8?q=80&w=2670&auto=format&fit=crop"
   },
   { 
     id: "8", 

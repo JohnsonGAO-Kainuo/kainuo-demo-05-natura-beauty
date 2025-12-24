@@ -36,7 +36,7 @@ export default function AboutPage() {
           </div>
           <div className="lg:w-1/2 relative aspect-[4/5] w-full">
             <Image 
-              src="https://images.unsplash.com/photo-1556228720-1987dfdd7386?q=80&w=2070&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1612454376902-577cd469d008?q=80&w=2070&auto=format&fit=crop" 
               alt="Making Process"
               fill
               className="object-cover"
@@ -82,7 +82,7 @@ export default function AboutPage() {
                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop"
                alt="Founder"
                fill
-               className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+               className="object-cover transition-all duration-700"
              />
           </div>
           <div className="md:w-2/3">
